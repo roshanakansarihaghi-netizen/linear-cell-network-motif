@@ -72,4 +72,8 @@ The full bibliographic reference and DOI will be added to this section once the 
 
 ## License
 
-No license has currently been specified for this repository.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+The author would like to thank Dr. Seyed Pooya Shariatpanahi for their valuable guidance and assistance in troubleshooting during the development of the Python scripts.
