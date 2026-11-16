@@ -68,7 +68,7 @@ If you use these scripts in your research, please cite the associated study:
 
 **Effects of intercellular electrical connectivity on membrane electric fields in linear cell networks.**
 
-A DOI and formal citation will be added when the associated research outputs are published.
+The full bibliographic reference and DOI will be added to this section once the study is published.
 
 ## License
 
