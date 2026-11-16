@@ -1,8 +1,8 @@
 # Linear Cell Network Motif Analysis
 
-This repository contains Python scripts for generating linear cell networks and analyzing the occurrence and average proportions of different network motifs under specified intercellular connection probabilities.
+This repository contains Python scripts developed to generate random linear cell networks with different intercellular tube-formation probabilities and calculate the average proportions of different network motifs.
 
-The scripts were developed as part of the computational research associated with the study of intercellular electrical connectivity in linear cell networks.
+The primary purpose of these scripts is to quantify the distribution of network motifs across randomly generated linear cell networks at different tube-formation probabilities. The resulting motif proportions were used in conjunction with COMSOL Multiphysics simulation results in the associated study to investigate the effects of intercellular electrical connectivity on membrane electric fields in linear cell networks.
 
 ## Repository Contents
 
@@ -10,7 +10,7 @@ This repository contains two Python scripts:
 
 ### 1. `generate_linear_cell_network_motifs.py`
 
-This script generates linear cell networks based on specified intercellular connection probabilities and calculates the occurrence of different network motifs.
+This script generates random linear cell networks based on specified intercellular connection probabilities and calculates the occurrence of different network motifs.
 
 The analysis includes:
 
@@ -23,9 +23,9 @@ The analysis includes:
 
 This script performs repeated simulations using the network-generation and motif-counting functions.
 
-It calculates the proportion of each motif relative to the total number of cells in the network and determines the average motif proportions across repeated simulations.
+It calculates the proportion of each motif relative to the total number of cells in the network and determines the average motif proportions across repeated simulations. These average proportions provide a quantitative description of the network configurations at different intercellular tube-formation probabilities.
 
-The results are saved in output files for subsequent analysis.
+The resulting data were used in combination with the COMSOL Multiphysics simulation results in the associated study.
 
 ## Model Parameters
 
@@ -37,7 +37,7 @@ The simulations are controlled by parameters defined in the Python scripts, incl
 - **Complementary probability (`Pq`):** The probability of an intercellular connection being absent.
 - **Number of repetitions:** The number of independent simulations used to calculate average motif proportions.
 
-These parameters can be modified in the scripts to investigate different network configurations and connection probabilities.
+These parameters can be modified in the scripts to investigate different network configurations and intercellular connection probabilities.
 
 ## Requirements
 
@@ -53,10 +53,10 @@ The scripts use Python modules specified in their source files. Any required ext
 4. Run the simulation and motif-analysis script:
 
 ```bash
-[object Object]
+python func_calculate_average_motif_proportions.py
 ```
 
-The script performs repeated network simulations and calculates the average proportions of the identified motifs.
+The script performs repeated random network simulations, calculates the proportions of the identified motifs, and saves the results in output files.
 
 ## Reproducibility
 
@@ -72,8 +72,8 @@ The full bibliographic reference and DOI will be added to this section once the 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/roshanakansarihaghi-netizen/linear-cell-network-motif/blob/main/LICENSE) file for details.
 
 ## Acknowledgements
 
-The author would like to thank Dr. Seyed Pooya Shariatpanahi for their valuable guidance and assistance in troubleshooting during the development of the Python scripts.
+The author would like to thank Dr. Seyed Pooya Shariatpanahi for his valuable guidance and assistance in troubleshooting during the development of the Python scripts.
