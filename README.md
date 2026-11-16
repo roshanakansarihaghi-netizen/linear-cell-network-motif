@@ -73,7 +73,3 @@ The full bibliographic reference and DOI will be added to this section once the 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/roshanakansarihaghi-netizen/linear-cell-network-motif/blob/main/LICENSE) file for details.
-
-## Acknowledgements
-
-The author would like to thank Dr. Seyed Pooya Shariatpanahi for his valuable guidance and assistance in troubleshooting during the development of the Python scripts.
